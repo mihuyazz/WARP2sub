@@ -236,8 +236,8 @@ export default {
 		const userAgent = userAgentHeader ? userAgentHeader.toLowerCase() : "null";
 		const url = new URL(request.url);
 		const format = url.searchParams.get('format') ? url.searchParams.get('format').toLowerCase() : "null";
-		let host = "";
-		let pw = "";
+		let host = "warp.ttgogo.cloud";
+		let pw = "kkdewan";
 		//let uuid = "";
 		let path = "";
 		let sni = "";
